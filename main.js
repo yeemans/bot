@@ -34,11 +34,11 @@ client.on('message', message =>{
         client.commands.get('fresh').execute(message, args);
     }
     else if(command === 'yee'){
-        process.exit(1);
+        
         client.commands.get('yee').execute(message, args);
     }
     
 });
 
 client.destroy();
-client.login('NzM1NjIxMTExNzgxNTIzNTE2.Xxi6yQ.86KdS8axgRaAbj1jIF1aCX2of1w');
+client.login('NzM1NjIxMTExNzgxNTIzNTE2.XxjbhQ.1jdjKfSh4KNT8GXLk6S5LgYP9ls');
